@@ -2,10 +2,10 @@ public class OOPSBannerUC4 {
 
     public static void main(String[] args) {
 
-        // Step 1: Create String Array
+  
         String[] banner = new String[7];
 
-        // Step 2: Populate Array using String.join()
+        
         banner[0] = String.join("",
                 "  *****   ",
                 "  *****   ",
@@ -48,7 +48,7 @@ public class OOPSBannerUC4 {
                 "*         ",
                 " ******  ");
 
-        // Step 3: Print using Enhanced For Loop
+        
         for (String line : banner) {
             System.out.println(line);
         }
